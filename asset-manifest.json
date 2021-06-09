@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/world8-level2/static/css/main.9feb7b0a.chunk.css",
+    "main.js": "/world8-level2/static/js/main.97c9d46b.chunk.js",
+    "main.js.map": "/world8-level2/static/js/main.97c9d46b.chunk.js.map",
+    "runtime-main.js": "/world8-level2/static/js/runtime-main.bf9d0748.js",
+    "runtime-main.js.map": "/world8-level2/static/js/runtime-main.bf9d0748.js.map",
+    "static/js/2.7e82d748.chunk.js": "/world8-level2/static/js/2.7e82d748.chunk.js",
+    "static/js/2.7e82d748.chunk.js.map": "/world8-level2/static/js/2.7e82d748.chunk.js.map",
+    "index.html": "/world8-level2/index.html",
+    "static/css/main.9feb7b0a.chunk.css.map": "/world8-level2/static/css/main.9feb7b0a.chunk.css.map",
+    "static/js/2.7e82d748.chunk.js.LICENSE.txt": "/world8-level2/static/js/2.7e82d748.chunk.js.LICENSE.txt",
+    "static/media/Office.eb327fbc.jpg": "/world8-level2/static/media/Office.eb327fbc.jpg",
+    "static/media/calendarBackground.7efa6661.jpg": "/world8-level2/static/media/calendarBackground.7efa6661.jpg",
+    "static/media/kitchen.a768004c.jpg": "/world8-level2/static/media/kitchen.a768004c.jpg",
+    "static/media/letter.573348de.jpg": "/world8-level2/static/media/letter.573348de.jpg",
+    "static/media/mirror.da289414.jpg": "/world8-level2/static/media/mirror.da289414.jpg",
+    "static/media/officeLetter.0e02005a.jpg": "/world8-level2/static/media/officeLetter.0e02005a.jpg",
+    "static/media/paintings.114269e5.jpg": "/world8-level2/static/media/paintings.114269e5.jpg",
+    "static/media/paintings1.a737dfb4.jpg": "/world8-level2/static/media/paintings1.a737dfb4.jpg",
+    "static/media/paintings2.152201fe.jpg": "/world8-level2/static/media/paintings2.152201fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf9d0748.js",
+    "static/js/2.7e82d748.chunk.js",
+    "static/css/main.9feb7b0a.chunk.css",
+    "static/js/main.97c9d46b.chunk.js"
+  ]
+}
