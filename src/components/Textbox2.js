@@ -2,7 +2,7 @@ import React from "react";
 import Textbox2Image from "./images/game-screen.png";
 
 
-function Textbox2 ({functionChangeRoom1, functionChangeRoom2, functionChangeRoom3, alternativeText1, alternativeText2, alternativeText3}) {
+function Textbox2 ({functionChangeRoom1, functionChangeRoom2, functionChangeRoom3, alternativeText1, alternativeText2, alternativeText3,}) {
 
     
    return ( 

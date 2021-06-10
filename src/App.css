@@ -60,3 +60,11 @@ button {
 #text-TextBox2 button {
   margin: 10px 0 10px 0;
 }
+
+.musicButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+  margin: 10px;
+}

@@ -16,6 +16,7 @@ import LetterBackground from "./components/images/letter.jpg"
 import OfficeImg from "./components/imagesSmall/Office.jpg";
 import OfficeLetter from "./components/imagesSmall/officeLetter.jpg";
 import CalendarBackgrund from "./components/images/calendarBackground.jpg";
+import MusicButton from "./components/MusicButton";
 
 
 // puss och lycka till :)
@@ -36,7 +37,6 @@ function App() { //Might be able to clean this up by putting all of the
   //Keeping track on what room you're in
   const roomArray = ["Hallway", "Office", "Kitchen", "Art"];
   const [whatRoom, setWhatRoom] = useState (roomArray[0]);
-  console.log(whatRoom);
   
   //Keeping track on what you have done ish
   const thingsArray = ["Empty", "Calendar", "Letter", "Art1", "Art2", "Safe"];
@@ -72,8 +72,6 @@ function App() { //Might be able to clean this up by putting all of the
     setAlternativeText3("For real leave the house");
     setDone(!isDone);
     console.log(isDone)
-
-    //On all of the buttons, add if isDone=true call the next level function
   }
 
 // -------------------------------------------------------------------
@@ -275,9 +273,10 @@ const changeRoom3 = () => {
 
   return (
     <div className="App">
+      <MusicButton/>
       <Textbox1 instructionText={instructionText}/>
       <Background Background={background} />
-      <Textbox2 functionChangeRoom1={changeRoom1} functionChangeRoom2={changeRoom2} functionChangeRoom3={changeRoom3}  alternativeText1={alternativeText1} alternativeText2={alternativeText2} alternativeText3={alternativeText3} />
+      <Textbox2 functionChangeRoom1={changeRoom1} functionChangeRoom2={changeRoom2} functionChangeRoom3={changeRoom3}  alternativeText1={alternativeText1} alternativeText2={alternativeText2} alternativeText3={alternativeText3}/>
     </div>
   );
 }
